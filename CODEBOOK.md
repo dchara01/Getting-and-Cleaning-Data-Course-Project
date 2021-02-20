@@ -1,4 +1,4 @@
-<h1>Action flow of run_analysis.R</h1>
+<h1>Workflow</h1>
 
 1. Checks for the required R packages, installs them if they are not already installed and the loads them.
 2. Checks for the existence of the data set and if it does not exist it downloads it and extracts it.
