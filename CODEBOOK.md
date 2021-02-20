@@ -26,10 +26,10 @@
 
 <h1>Merging the data sets</h1>
 
-* **X** _(10299 rows, 561 columns)_ is created by merging x_train and X_test using rbind() function
-* **y** _(10299 rows, 1 column)_ is created by merging y_train and y_test using rbind() function
-* **subject** *(10299 rows, 1 column)* is created by merging subject_train and subject_test using rbind() function
-* **merged_data** *(10299 rows, 563 column)* is created by merging subject, y and X using cbind() function
+- **X** _(10299 rows, 561 columns)_ is created by merging x_train and X_test using rbind() function
+- **y** _(10299 rows, 1 column)_ is created by merging y_train and y_test using rbind() function
+- **subject** *(10299 rows, 1 column)* is created by merging subject_train and subject_test using rbind() function
+- **merged_data** *(10299 rows, 563 column)* is created by merging subject, y and X using cbind() function
 
 <h1>Using descriptive labels</h1>
 - id renamed to **activities**
