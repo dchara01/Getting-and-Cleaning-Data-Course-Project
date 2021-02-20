@@ -7,22 +7,16 @@
 5. Creates a second data set with only mean and standart deviation values
 
 <h1>Variables and data assignments</h1>
-- **features** _<- features.txt : 561 rows, 2 columns_
-  - The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
-- **activities** _<- activity_labels.txt : 6 rows, 2 columns_
-  - List of activities performed when the corresponding measurements were taken and its ids
-- **subject_test** _<- test/subject_test.txt : 2947 rows, 1 column_
-  - Contains test data of 9/30 volunteer test subjects being observed
-- **X_test** _<- test/X_test.txt : 2947 rows, 561 columns_
-  - Contains recorded features test data
-- **y_test** _<- test/y_test.txt : 2947 rows, 1 columns_
-  - Contains test data of activities’ ids
-- **subject_train** _<- test/subject_train.txt : 7352 rows, 1 column_
-  - Contains train data of 21/30 volunteer subjects being observed
-- **X_train** _<- test/X_train.txt : 7352 rows, 561 columns_
-  - Contains recorded features train data
-- **y_train** _<- test/y_train.txt : 7352 rows, 1 columns_
-  - Contains train data of activities’ ids
+| Variable | Description |
+| --- | --- |
+| **features** _<- features.txt : 561 rows, 2 columns_ | The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. |
+|**activities** _<- activity_labels.txt : 6 rows, 2 columns_ | List of activities performed when the corresponding measurements were taken and its ids. |
+| **subject_test** _<- test/subject_test.txt : 2947 rows, 1 column_ | Contains test data of 9/30 volunteer test subjects being observed. |
+| **X_test** _<- test/X_test.txt : 2947 rows, 561 columns_ | Contains recorded features test data. |
+| **y_test** _<- test/y_test.txt : 2947 rows, 1 columns_ | Contains test data of activities’ ids |
+| **subject_train** _<- test/subject_train.txt : 7352 rows, 1 column_ | Contains train data of 21/30 volunteer subjects being observed. |
+| **X_train** _<- test/X_train.txt : 7352 rows, 561 columns_ | Contains recorded features train data. |
+| **y_train** _<- test/y_train.txt : 7352 rows, 1 columns_ | Contains train data of activities’ ids. |
 
 <h1>Merging the data sets</h1>
 
