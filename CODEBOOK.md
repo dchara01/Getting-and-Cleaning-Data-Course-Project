@@ -26,13 +26,13 @@
 - **merged_data** *(10299 rows, 563 column)* is created by merging subject, y and X using cbind() function
 
 <h1>Using descriptive labels</h1>
-- id renamed to **activities**
-- Acc renamed to **accelerometer**
-- Gyro renamed to **gyroscope**
-- BodyBody renamed to **body**
-- Mag renamed to **magnitude**
-- f renamed to **frequency**
-- t renamed to **time**
+- id renamed to **activities**.
+- Acc renamed to **accelerometer**.
+- Gyro renamed to **gyroscope**.
+- BodyBody renamed to **body**.
+- Mag renamed to **magnitude**.
+- f renamed to **frequency**.
+- t renamed to **time**.
 
 <h1>Output data set</h1>
 **tidy_data_2** *(180 rows, 88 columns)* is created by summarizing the tidy_data data set, taking the means of each variable for each activity and each subject, after with it is grouped by subject and activity.
