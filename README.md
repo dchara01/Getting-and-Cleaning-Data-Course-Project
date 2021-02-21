@@ -3,11 +3,12 @@
 This is a repository containing files and data in relation to the Getting and Cleaning Data Course Project.
 
 <h2>CODEBOOK.md</h2>
+
 Includes descriptions of the variables and explanations on the data manipulations performed to clean up the data and create a tidy data set.
     
 <h2>run_analysis.R</h2>
-Performs the required actions to achieve the following:
 
+Performs the required actions to achieve the following:
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses descriptive activity names to name the activities in the data set
