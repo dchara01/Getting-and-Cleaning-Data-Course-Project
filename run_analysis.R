@@ -34,7 +34,6 @@ if (!file.exists(foldername)){
 
 ## Dealing with data frames.
 
-
 # Assign all data frames.
 features <- read.table("UCI HAR Dataset/features.txt", col.names = c("n","functions"))
 activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt", col.names = c("id", "activity"))
